@@ -11,6 +11,29 @@
 using namespace std;
 
 int main() {
+    int n;
+    cin >> n;
+
+    string name, max_name, min_name;
+    string sno, max_sno, min_sno;
+    int grade, max_grade = -1, min_grade = 101;
+
+    while (n--) {
+        cin >> name >> sno >> grade;
+        if (grade > max_grade) {
+            max_name = name;
+            max_sno = sno;
+            max_grade = grade;
+        }
+        if (grade < min_grade) {
+            min_name = name;
+            min_sno = sno;
+            min_grade = grade;
+        }
+    }
+
+    cout << max_name << ' ' << max_sno << endl;
+    cout << min_name << ' ' << min_sno << endl;
 
     return 0;
 }

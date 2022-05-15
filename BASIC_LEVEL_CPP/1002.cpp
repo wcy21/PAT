@@ -5,7 +5,6 @@
 * @version: 1.0
 * @description: 1002 写出这个数 (分数 20)
 ********************************************************************************/
-#if 0
 
 #include <iostream>
 #include <string>
@@ -37,5 +36,3 @@ int main() {
 
     return 0;
 }
-
-#endif

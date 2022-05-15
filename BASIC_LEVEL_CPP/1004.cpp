@@ -14,9 +14,9 @@ int main() {
     int n;
     cin >> n;
 
+    int grade, max_grade = -1, min_grade = 101;
     string name, max_name, min_name;
     string sno, max_sno, min_sno;
-    int grade, max_grade = -1, min_grade = 101;
 
     while (n--) {
         cin >> name >> sno >> grade;

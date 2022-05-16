@@ -28,7 +28,7 @@ int main() {
             }
             val >>= 1;
 
-            if (vis[val] == 1) {  // n -> f(n)
+            if (vis[val]) {  // n -> f(n)
                 break;
             }
             vis[val] = true;

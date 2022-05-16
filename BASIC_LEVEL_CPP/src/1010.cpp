@@ -11,6 +11,19 @@
 using namespace std;
 
 int main() {
-
+    int x, n, flag = 0;
+    while (cin >> x >> n) {
+        if (n) {
+            if (flag) {
+                cout << ' ';
+            }
+            cout << x * n << ' ' << n - 1;
+            flag = 1;
+        }
+    }
+    if (!flag) {
+        cout << "0 0";
+    }
+    
     return 0;
 }

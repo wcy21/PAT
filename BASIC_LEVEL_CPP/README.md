@@ -16,7 +16,7 @@
 | [一元多项式求导](https://github.com/wcy21/PAT/blob/master/BASIC_LEVEL_CPP/src/1010.cpp) | [1010](https://pintia.cn/problem-sets/994805260223102976/problems/994805313708867584) |
 | [A+B 和 C](https://github.com/wcy21/PAT/blob/master/BASIC_LEVEL_CPP/src/1011.cpp) | [1011](https://pintia.cn/problem-sets/994805260223102976/problems/994805312417021952) |
 | [数字分类](https://github.com/wcy21/PAT/blob/master/BASIC_LEVEL_CPP/src/1012.cpp) | [1012](https://pintia.cn/problem-sets/994805260223102976/problems/994805311146147840) |
-| [数素数]((https://github.com/wcy21/PAT/blob/master/BASIC_LEVEL_CPP/src/1013.cpp)) | [1013](https://pintia.cn/problem-sets/994805260223102976/problems/994805309963354112) |
+| [数素数](https://github.com/wcy21/PAT/blob/master/BASIC_LEVEL_CPP/src/1013.cpp) | [1013](https://pintia.cn/problem-sets/994805260223102976/problems/994805309963354112) |
 |                        福尔摩斯的约会                        |                             1014                             |
 |                            德才论                            |                             1015                             |
 |                           部分A+B                            |                             1016                             |

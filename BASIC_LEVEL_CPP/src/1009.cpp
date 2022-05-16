@@ -3,7 +3,7 @@
 * @project: BASIC_LEVEL_CPP 
 * @date: 2022/5/16 21:42
 * @version: 1.0
-* @description:说反话 (分数 20)
+* @description: 说反话 (分数 20)
 ********************************************************************************/
 
 #include <iostream>

@@ -11,16 +11,16 @@
 
 using namespace std;
 
-string str[10] = {
+string strs[10] = {
         "ling", "yi", "er", "san", "si", "wu", "liu", "qi", "ba", "jiu"
 };
 
 void printSum(int sum) {
     if (sum < 10) {
-        cout << str[sum];
+        cout << strs[sum];
     } else {
         printSum(sum / 10);
-        cout << ' ' << str[sum % 10];
+        cout << ' ' << strs[sum % 10];
     }
 }
 

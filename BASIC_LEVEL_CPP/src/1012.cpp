@@ -32,10 +32,8 @@ int main() {
         }
     }
     for (int i = 0; i < 5; ++i) {
-        if (i != 0) {
-            cout << ' ';
-        }
-        if (!v[i][0]) {
+        if (i != 0) cout << ' ';
+        if (!v[i][0]) {  // 未被赋值，表示未访问合法数据
             cout << 'N';
         } else {
             if (i == 3) {

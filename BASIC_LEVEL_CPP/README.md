@@ -20,8 +20,8 @@
 | [福尔摩斯的约会](https://pintia.cn/problem-sets/994805260223102976/problems/994805308755394560) | [1014](https://github.com/wcy21/PAT/blob/master/BASIC_LEVEL_CPP/src/1014.cpp) |
 | [德才论](https://pintia.cn/problem-sets/994805260223102976/problems/994805307551629312) | [1015](https://github.com/wcy21/PAT/blob/master/BASIC_LEVEL_CPP/src/1015.cpp) |
 | [部分A+B](https://pintia.cn/problem-sets/994805260223102976/problems/994805306310115328) | [1016](https://github.com/wcy21/PAT/blob/master/BASIC_LEVEL_CPP/src/1016.cpp) |
-|                            A除以B                            |                             1017                             |
-|                          锤子剪刀布                          |                             1018                             |
+| [A除以B](https://pintia.cn/problem-sets/994805260223102976/problems/994805305181847552) | [1017](https://github.com/wcy21/PAT/blob/master/BASIC_LEVEL_CPP/src/1017.cpp) |
+| [锤子剪刀布](https://pintia.cn/problem-sets/994805260223102976/problems/994805304020025344) | [1018](https://github.com/wcy21/PAT/blob/master/BASIC_LEVEL_CPP/src/1018.cpp) |
 |                           数字黑洞                           |                             1019                             |
 |                             月饼                             |                             1020                             |
 |                          个位数统计                          |                             1021                             |
@@ -29,6 +29,3 @@
 |                          组个最小数                          |                             1023                             |
 |                          科学计数法                          |                             1024                             |
 |                           反转链表                           |                             1025                             |
-
-
-

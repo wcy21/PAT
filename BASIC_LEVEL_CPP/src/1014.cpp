@@ -17,7 +17,7 @@ int main() {
     };
     string s1, s2, s3, s4;
     cin >> s1 >> s2 >> s3 >> s4;
-
+    
     int p = 0;
     while (s1[p] != s2[p] || !(s1[p] >= 'A' && s1[p] <= 'G')) ++p;
     cout << week[s1[p++] - 'A'] << ' ';

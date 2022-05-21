@@ -26,23 +26,18 @@ int main() {
                 num = 3 * num + 1;
             }
             num >>= 1;
-
-            if (vis[num]) {  // n -> f(n
-                break;
-            }
+            // n -> f(n)
+            if (vis[num]) break;
             vis[num] = true;
         }
     }
     sort(val, val + K, greater<>());
-
+    
     bool flag = false;
     for (int i = 0; i < K; ++i) {
         if (!vis[val[i]]) {
-            if (!flag) {
-                flag = true;
-            } else {
-                cout << ' ';
-            }
+            if (!flag) flag = true;
+            else cout << ' ';
             cout << val[i];
         }
     }

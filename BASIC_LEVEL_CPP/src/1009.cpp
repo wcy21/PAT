@@ -13,13 +13,10 @@ using namespace std;
 int main() {
     string strs[87];
     int index = -1;
-    while (cin >> strs[++index]) {
-    }
+    while (cin >> strs[++index]);
     while (index--) {
         cout << strs[index];
-        if (index) {
-            cout << ' ';
-        }
+        if (index) cout << ' ';
     }
 
     return 0;

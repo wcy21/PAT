@@ -18,15 +18,9 @@ int main() {
         n /= 10;
     }
 
-    for (int i = 0; i < a[2]; ++i) {
-        cout << 'B';
-    }
-    for (int i = 0; i < a[1]; ++i) {
-        cout << 'S';
-    }
-    for (int i = 0; i < a[0]; ++i) {
-        cout << i + 1;
-    }
+    for (int i = 0; i < a[2]; ++i) cout << 'B';
+    for (int i = 0; i < a[1]; ++i) cout << 'S';
+    for (int i = 0; i < a[0]; ++i) cout << i + 1;
 
     return 0;
 }

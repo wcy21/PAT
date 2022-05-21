@@ -27,13 +27,7 @@ int main() {
     }
     for (int i = M; i <= N; ++i) {
         while (!Prime(++num));
-        if (cnt++) {
-            if (cnt % 10 == 1) {
-                cout << '\n';
-            } else {
-                cout << ' ';
-            }
-        }
+        if (cnt++) cout << (cnt % 10 == 1 ? '\n' : ' ');
         cout << num;
     }
 

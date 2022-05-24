@@ -24,11 +24,9 @@
 | [锤子剪刀布](https://pintia.cn/problem-sets/994805260223102976/problems/994805304020025344) | [1018](https://github.com/wcy21/PAT/blob/master/BASIC_LEVEL_CPP/src/1018.cpp) |
 | [数字黑洞](https://pintia.cn/problem-sets/994805260223102976/problems/994805302786899968) | [1019](https://github.com/wcy21/PAT/blob/master/BASIC_LEVEL_CPP/src/1019.cpp) |
 | [月饼](https://pintia.cn/problem-sets/994805260223102976/problems/994805301562163200) | [1020](https://github.com/wcy21/PAT/blob/master/BASIC_LEVEL_CPP/src/1020.cpp) |
-|                          个位数统计                          |                             1021                             |
-|                          D进制的A+B                          |                             1022                             |
+| [个位数统计](https://pintia.cn/problem-sets/994805260223102976/problems/994805300404535296) | [1021](https://github.com/wcy21/PAT/blob/master/BASIC_LEVEL_CPP/src/1021.cpp) |
+| [D进制的A+B](https://pintia.cn/problem-sets/994805260223102976/problems/994805299301433344) | [1022](https://github.com/wcy21/PAT/blob/master/BASIC_LEVEL_CPP/src/1022.cpp) |
 |                          组个最小数                          |                             1023                             |
 |                          科学计数法                          |                             1024                             |
 |                           反转链表                           |                             1025                             |
-
-
 

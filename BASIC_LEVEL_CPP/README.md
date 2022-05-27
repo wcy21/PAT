@@ -26,7 +26,11 @@
 | [月饼](https://pintia.cn/problem-sets/994805260223102976/problems/994805301562163200) | [1020](https://github.com/wcy21/PAT/blob/master/BASIC_LEVEL_CPP/src/1020.cpp) |
 | [个位数统计](https://pintia.cn/problem-sets/994805260223102976/problems/994805300404535296) | [1021](https://github.com/wcy21/PAT/blob/master/BASIC_LEVEL_CPP/src/1021.cpp) |
 | [D进制的A+B](https://pintia.cn/problem-sets/994805260223102976/problems/994805299301433344) | [1022](https://github.com/wcy21/PAT/blob/master/BASIC_LEVEL_CPP/src/1022.cpp) |
-|                          组个最小数                          |                             1023                             |
-|                          科学计数法                          |                             1024                             |
-|                           反转链表                           |                             1025                             |
+| [组个最小数](https://pintia.cn/problem-sets/994805260223102976/problems/994805298269634560) | [1023](https://github.com/wcy21/PAT/blob/master/BASIC_LEVEL_CPP/src/1023.cpp) |
+| [科学计数法](https://pintia.cn/problem-sets/994805260223102976/problems/994805297229447168) | [1024](https://github.com/wcy21/PAT/blob/master/BASIC_LEVEL_CPP/src/1024.cpp) |
+| [反转链表](https://pintia.cn/problem-sets/994805260223102976/problems/994805296180871168) | [1025](https://github.com/wcy21/PAT/blob/master/BASIC_LEVEL_CPP/src/1025.cpp) |
+
+
+
+
 

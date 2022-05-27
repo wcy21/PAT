@@ -11,13 +11,19 @@
 using namespace std;
 
 int main() {
-    string str;
+    string str, sa, ans;
     cin >> str;
-    string sa = str.substr(0, str.find('E'));
-    string sn = str.substr(str.find('E') + 1);
-    int n = stoi(sn);
-    cout << sa << ' ' << sn << endl;
-
+    sa = str.substr(1, str.find('E') - 1).erase(1, 1);
+    int n = stoi(str.substr(str.find('E') + 1));
+    if (str[0] == '-') ans += '-';
+    if (n < 0) {
+        ans += "0." + string(-n - 1, '0') + sa;
+    } else {
+        if (n < sa.length() - 1) ans += sa.insert(n + 1, ".");
+        else ans += sa.append(n - sa.length() + 1, '0');
+    }
+    cout << ans << endl;
 
     return 0;
 }
+

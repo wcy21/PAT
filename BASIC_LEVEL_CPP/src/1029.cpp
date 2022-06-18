@@ -11,6 +11,17 @@
 using namespace std;
 
 int main() {
+    string input, show, broken;
+    cin >> input >> show;
+
+    for (char ch: input) {
+        char key = islower(ch) ? toupper(ch) : ch;
+        if (show.find(ch) == string::npos && broken.find(key) == string::npos) {
+            broken += key;
+        }
+    }
+
+    cout << broken << endl;
 
     return 0;
 }

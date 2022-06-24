@@ -23,6 +23,7 @@ int main() {
 
     int max_len = 0;
     for (int i = N - 1; i >= 0; --i) {
+        // 假设最大数字为 arr[i], 最小数字为 min_num
         int min_num = ceil(double(arr[i]) / p);
         int len = distance(lower_bound(arr, arr + N, min_num), arr + i + 1);
         max_len = max(max_len, len);

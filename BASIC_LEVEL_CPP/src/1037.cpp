@@ -11,6 +11,18 @@
 using namespace std;
 
 int main() {
+    int galleon, sickle, kunt, P;
+    char ch;
+    cin >> galleon >> ch >> sickle >> ch >> kunt;
+    P = (galleon * 17 + sickle) * 29 + kunt;
+    cin >> galleon >> ch >> sickle >> ch >> kunt;
+    P = (galleon * 17 + sickle) * 29 + kunt - P;
+
+    galleon = P / (17 * 29);
+    P = (P < 0 ? -P : P) % (17 * 29);
+    sickle = P / 29;
+    kunt = P % 29;
+    cout << galleon << '.' << sickle << '.' << kunt << endl;
 
     return 0;
 }

@@ -1,10 +1,10 @@
 /********************************************************************************
-* @author: 兔子
-* @project: BASIC_LEVEL_CPP 
-* @date: 2022/7/1 1:27
-* @version: 1.0
-* @description: 挖掘机技术哪家强 (分数 20)
-********************************************************************************/
+ * @author: 兔子
+ * @project: BASIC_LEVEL_CPP
+ * @date: 2022/7/1 1:27
+ * @version: 1.0
+ * @description: 挖掘机技术哪家强 (分数 20)
+ ********************************************************************************/
 
 #include <iostream>
 #include <map>
@@ -12,10 +12,9 @@
 using namespace std;
 
 int main() {
-    map<int, int> schools;
-
     int N;
     cin >> N;
+    map<int, int> schools;
     while (N--) {
         int schoolId, score;
         cin >> schoolId >> score;

@@ -1,9 +1,9 @@
 /********************************************************************************
 * @author: 兔子
-* @project: ADVANCED_LEVEL_CPP
-* @date: 2022/7/17 19:13
+* @project: BASIC_LEVEL_CPP 
+* @date: 2022/7/18 18:13
 * @version: 1.0
-* @description: A+B for Polynomials (分数 25)
+* @description: 住房空置率 (分数 20)
 ********************************************************************************/
 
 #include <iostream>
